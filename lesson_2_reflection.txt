@@ -1,0 +1,29 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Ans: A repository can be initialized using "git init" on the directory you want to initialize the repo in. Doing that will create a .git(hidden) directory which indicates that the repo has been initialized. Then, "git status" can be used to track all the files present in the directory that haven't been added or commited to the repo. Initialy, there are no commits in the repo.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Ans: Working directory is the directory in which we make the edits and changes to the files to be commited. They are then sent to a staging area, which gives the liberty to choose which files we want to commit rather than directly commiting all files in the WD.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Ans: By allowing to select the files that we want to commit at once, SA is beneficial. Changes committed in the WD can be selectively added to SA, and only the files in the staging areas will be committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Ans: If we are trying on some experimental features, keeping things organised or adding some parallel versions(like a spanish version, or an easy mode for a game). Such changes that we do not wish to commit to the master branch, we can commit by being on a different branch.
+
+How do the diagrams help you visualize the branch structure?
+
+Ans: It can help to show the log of commits in all branches of a repo and to check which branches contain which commits, thus helping in better organising and managing repo.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Ans: The recent commited changes introduced are merged together, when two branches are merged. It is represented in that manner to represent all the reachable commits of the branch that have now been merged and show as one in "git log"
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Ans: Pros - It saves time by automatically deciding which changes from both branches need to be merged, while showing a merging conflict in case differntversions of the same code exists and Git cannot decide automatically.
+
+Cons - Some of the lines of code may get omitted, since Git auto-decides which lines to keep.

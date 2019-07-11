@@ -1,6 +1,0 @@
-1. If a file is edited and renamed before comitting, the changes made in the file would be saved, but with the previous name only.
-(i.e file cannot be renamed using git commit)
-
-2.After checking out a commit, the state of all the files in the repository will be from the same point in time.
-
-3. Repositories are similar to a directory, only differnce being that a repo also stores a metadata of all the previous versions of a file.
