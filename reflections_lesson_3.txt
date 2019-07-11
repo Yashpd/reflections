@@ -19,3 +19,9 @@ Ans: Having a copy of the last known state of a remote can help us to trace the 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Ans: The best way to collaborate that I can think of, without Git or Github, would be to use cloud service like dropbox or Google drive. This method will be way harder than Git or Github, since Git allows so much control of versions of a file, making and modifying changes, bug-fixing, and sharing files without losing previous content. Github is an extremely powerful tool, that would make collaborations much much easier.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Ans: When working in a parallel version, keeping master branch unchanged.
+     When making changes to any file, and to have it reviwed before merging by creating a pull request.
+     
