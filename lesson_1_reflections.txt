@@ -1,0 +1,32 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Ans: In terminal, using "diff -u <old version file name> <new version file name>" to find the difference between the two files, is an extremely useful tool. When it comes to larger code files, with thousands of line, find a typo or error in the newer verion by differentiating with older version can save a lot of time and effort in debugging.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Ans: Through access of the entire history of a file, I can keep track of the progress made, bugs fixed and errors incurred in the file, Thus making me an efficient programmer in the long term.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Ans: 
+Pros - You have the control of manually choosing when to save a version, unlike having verions automatically saved that could be too small commits(nothing big changed) or too big(a lot changed and changes not saved). We can thus manually save versions after every logical changes made.
+
+Cons - Since the user has the full control of saving version, chances of personal error is incurred. A user may forget to save a change.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Ans: Git allows tracking changes in many files in a repository and to be committed together, so as to not clutter up the log with various small commits made in seperate files. One can make small(or big) changes in all(or some) files in the repository and commit them together, rather having to commit each file seperately which can be tedious for repos with multiple files.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+Ans: To view history of all the commits made on a file or repo, we use "git log" on the directory that's been cloned. git log shows all the commits in a list with newest ine at the top. All the commits have a unique Id and git log also shows the author, date & time, and the message that was typed in with a commit(git commit -m "<Message.>")
+To view the differnce or changes made between two versions, use "git diff <old commit id> <new commit id>" and it will show all lines added with a "+" and lines removed with a "-" sign.
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+Ans: Debugging becomes a lot easier with using VCS. Like, we can use "git checkout <old commit Id>" to checkout a previous version of the same file that had been committed a no.  of times. If a bug is introduced in a newer commit, git checkout can be a powerful tool to check the commit which introduced the bug.(Make sure to note the commit Id of the newest commit if you ever wish to go back to the newest version, because after checking out a older version, "git log" will only show commits done before the commit we're currently on.)
+Thus, VCS allows to confidently make changes to a file, since we have the power to go back to a previous version in case something breaks.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+Ans: For working on projects, forking other repositories to work on other projects.
