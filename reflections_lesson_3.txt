@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Ans: When I'm working on a public project, or if I work on a project in which I want public contibutions. It can be a really helpful tool If I'm working on a group project, so that other members of my group may also freely contribute to the project work.
