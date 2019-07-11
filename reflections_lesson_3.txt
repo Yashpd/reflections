@@ -5,3 +5,9 @@ Ans: When I'm working on a public project, or if I work on a project in which I 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Ans: There may be multiple branches in my Github repo, in which I might not need to pull all of them. Thus, manually pulling changes gives a good control over branches. Plus, automatic updating may save irrelevant check points, but manually I can control when I need to pull the changes.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Ans: FORK: clones a repo present on Github into my Github account.
+     CLONES : copies the whole repo from Github to local machine.
+     BRANCH : A parallel copy of a repo created on local machine which can be edited without effecting the master branch.
