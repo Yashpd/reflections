@@ -15,3 +15,7 @@ Ans: FORK: clones a repo present on Github into my Github account.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Ans: Having a copy of the last known state of a remote can help us to trace the commits that were made into the repo. Plus, having the local copy gives the power to edit and make changes from the local machine, which may be pushed later.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Ans: The best way to collaborate that I can think of, without Git or Github, would be to use cloud service like dropbox or Google drive. This method will be way harder than Git or Github, since Git allows so much control of versions of a file, making and modifying changes, bug-fixing, and sharing files without losing previous content. Github is an extremely powerful tool, that would make collaborations much much easier.
