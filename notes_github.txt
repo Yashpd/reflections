@@ -1,0 +1,10 @@
+1. To push a repo from local machine to github, it needs to be pushed to a remote repo.
+
+first, create a new repo on github. 
+Then, create a remote using"git remote add origin <URL>"
+Then, go to your directory you want to push, and "git push origin master"
+
+2. You can add file and commit directly in your Github repo. These changes, however will not be reflected in your local repo.
+To pull the changes on Github repo to your local repo:
+use "git pull origin master"....(Since we want to pull the master branch and origin was the remote name we created.)
+Now, both repos will also have the same commits.
